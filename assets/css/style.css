@@ -298,8 +298,9 @@ body {
 }
 
 .close__menu{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--bright-navy-blue);
+
 }
 
 .nav__list{
