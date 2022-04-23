@@ -1,0 +1,175 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="overlay" id="overlay"></div>
+        <div class="header__top" id="header__top">
+            <div class="container">
+                <a href="" class="helpline__box">
+                    <div class="icon__box">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div class="contact__box">
+                        <p class="contact__title">For Further Inquires :</p>
+                        <p class="contact__number">+01 (123) 4567 90</p>
+                    </div>
+                </a>
+
+                <a href="#" class="header__top-logo">
+                    <img src="/assets/images/logo.svg" alt="">
+                </a>
+
+                <div class="button__group">
+                    <!-- <button class="search__btn">
+                        <ion-icon name="search"></ion-icon>
+                    </button> -->
+                    <button class="open__menu" id="open__menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__buttom">
+            <div class="container">
+                <ul class="header__social-icons">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__menu" id="nav__menu">
+                    <div class="nav__top">
+                        <a class="nav__top-logo">
+                            <img src="/assets/images/logo-blue.svg" alt="">
+                        </a>
+
+                        <button class="close__menu" id="close__menu">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="nav__links" id="nav__links">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__links" id="nav__links">About us</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__links" id="nav__links">Destination</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__links" id="nav__links">Packages</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__links" id="nav__links">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__links" id="nav__links">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="btn btn-primary header__buttom-btn">Book Now</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <h1 class="hero__title">
+                    Journey to explore world
+                </h1>
+                <p class="hero__description">
+                    Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
+                    voluptatibus habitant?
+                    Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+                </p>
+                <div class="button__groups">
+                    <button class="btn btn-primary">Learn More</button>
+                    <button class="btn btn-secondary">Book Now</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Tours Section -->
+
+        <section class="tours" id="tours">
+            <div class="container">
+                <form action="" class="tours__form">
+                    <div class="input__group">
+                        <label for="destination" class="input-label">Search Destination*</label>
+                        <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                            class="input__field">
+                    </div>
+                    <div class="input__group">
+                        <label for="pax-number" class="input-label">Pax Number*</label>
+                        <input type="number" name="pax-number" id="Pax Number" required placeholder="No.of People"
+                            class="input__field">
+                    </div>
+                    <div class="input__group">
+                        <label for="pax-number" class="input-label">Checkin Date*</label>
+                        <input type="date" name="Checkin Date" id="Checkin" required class="input__field">
+                    </div>
+                    <div class="input__group">
+                        <label for="pax-number" class="input-label">Checkout Date*</label>
+                        <input type="date" name="Checkout Date" id="Checkout" required class="input__field">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">INQUIRE NOW</button>
+            </div>
+            </form>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <!-- Custom js link -->
+    <script src="/assets/js/app.js"></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
